@@ -6,24 +6,21 @@ import product from './product';
 
 
 
-function Cardd1() {
-  var name="x"
-  var firstname=""
+function Carddddd4() {
     return (
       <div>
           <Card style={{ width: '18rem' }}>
-            {firstname?<Card.Img variant="top" src="https://staticg.sportskeeda.com/editor/2021/12/3047c-16401174098542.png" />:null}
+            <Card.Img variant="top" src="https://staticg.sportskeeda.com/editor/2021/12/6664e-16401168917757-1920.jpg?w=840" />
             <Card.Body>
-            <Card.Title>{name?"hello":"hello there"}</Card.Title>
+              <Card.Title>{product[3].name}</Card.Title>
               <Card.Text>
-                HI
+              {product[3].description}
               </Card.Text>
-              <h2></h2>
+              <h2>{product[3].price}</h2>
               <Button variant="primary">Go somewhere</Button>
             </Card.Body>
-          </Card>
-          </div>
+          </Card></div>
     )
   }
   
-  export default Cardd1
+  export default Carddddd4
